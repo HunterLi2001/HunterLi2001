@@ -1,0 +1,156 @@
+/*begin nitialization settings*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*end initialization settings*/
+
+/*begin overall design*/
+body {
+    background: url(images/klee.jpeg) no-repeat;
+    background-size: cover;
+    background-position: 0 -250px;
+    background-attachment: fixed;
+}
+
+.center {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/*end overall design*/
+
+/*begin head*/
+.KleeHead {
+    display: block;
+    width: 400px;
+    margin-top: 75px;
+    position: absolute;
+    right: 55px;
+}
+
+h1,
+h3 {
+    display: inline;
+}
+
+/*end head*/
+
+/*begin table*/
+table {
+    margin: 10px 55px;
+    width: 350px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    width: 75px;
+    border: 1px solid;
+}
+
+.about {
+    background-color: #ec4923;
+    color: white;
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+    border: 1px solid;
+}
+
+.family {
+    font-weight: 700;
+}
+
+/*end table*/
+
+/*begin top button*/
+.TOP {
+    display: block;
+    position: fixed;
+    left: 50%;
+    margin-left: 510px;
+    bottom: 140px;
+    width: 50px;
+    height: 50px;
+    background-color: #666564;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+/*end top button*/
+
+/*begin video*/
+video {
+    width: 100%;
+    object-fit: fill;
+    outline: none;
+}
+
+/*end video*/
+
+/*begin title*/
+h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+/*end title*/
+
+/*begin content*/
+p {
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+
+.shouze {
+    color: #a0321b;
+    font-size: 32px;
+    text-align: center;
+    line-height: 41px;
+}
+
+.kaiya {
+    position: relative;
+    left: 545px;
+    font-size: 12px;
+}
+
+h4 {
+    font-size: 16.8px;
+    margin: 5px 0;
+}
+
+/*end content*/
+
+/*begin footer*/
+footer {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*end footer*/
